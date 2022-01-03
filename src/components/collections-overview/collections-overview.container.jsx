@@ -6,7 +6,7 @@ import CollectionsOverview from './collections-overview.component'
 import Spinner from '../spinner/spinner.component'
 
 const GET_COLLECTIONS = gql`
-  {
+  query {
     collections {
       id
       title
